@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitya's RODE Website</title>
+    <script src="https://kit.fontawesome.com/51d4157dc4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    sm: '426px',
+                    md: '760px',
+                    lg: '1440px'
+
+                },
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-poppins">
+    <nav class="border-2 border-[#DEDFE0]">
+        <ul class=" list-none flex justify-between px-[30px] py-[5px] md:px-[60px] lg:px-[150px]">
+            <li class="cursor-pointer text-[14px] text-[#484848] font-light md:text-[10px] lg:text-[14px]"><i
+                    class="fa-solid fa-location-dot "></i>&nbsp;EN-US&nbsp;<i class="fa-solid fa-caret-down"></i></li>
+            <li class="cursor-pointer text-[14px] text-[#484848] font-light md:text-[10px] lg:text-[14px]"><i
+                    class="fa-regular fa-user"></i></li>
+        </ul>
+    </nav>
+    <nav class="sticky top-0 bg-white flex justify-between px-[30px] py-[30px] md:pl-[60px] lg:px-[150px] lg:py-[30px]">
+        <img class="cursor-pointer h-[15px] lg:h-[24px]" src="./assets/nav/logo.svg" alt="">
+        <ul class="cursor-pointer hidden flex gap-[45px] lg:block lg:flex lg:gap-[45px]">
+            <li class="text-[14px] text-[#484848]">PRODUCTS</li>
+            <li class="text-[14px] text-[#484848]">APPS</li>
+            <li class="text-[14px] text-[#484848]">USER GUIDES</li>
+            <li class="text-[14px] text-[#484848]">SOLUTIONS</li>
+            <li class="text-[14px] text-[#484848]">SUPPORT</li>
+        </ul>
+        <p><i class="cursor-pointer hidden fa-solid fa-magnifying-glass text-[#484848] text-[25px] lg:block"></i></p>
+        <p class="cursor-pointer pr-[4px]  hidden sm:block md:pr-[30px] lg:hidden"><i class="fa-solid fa-bars"></i></p>
+    </nav>
+    <div
+        class="flex flex-col bg-[#DDDDDD] py-[70px]  justify-center lg:py-[200px] lg:pl-[120px] lg:gap-[40px] lg:flex lg:flex-row">
+        <div>
+            <h1 class="text-center text-[25px]  font-light  md:text-[35px] lg:text-[50px] lg:pr-[0px]">THE <span
+                    class="font-bold">WIRELESS</span> RANGE</h1>
+            <p class="text-center text-[18px]  md:text-[20px] lg:text-[28px] lg:pr-[0px] ">Cut the Cord and Create
+                Without Limits</p>
+            <p
+                class=" mt-[15px] text-center text-[9px] text-[#3A3A3A] md:text-[14px] lg:text-[16px] lg:mt-[15px] lg:pr-[0px]">
+                Whether you’re shooting social content or your
+                next short film, our<br />
+                ultra-compact wireless microphone systems are the perfåect solution<br /> for capturing pristine audio
+                with complete freedom.</p>
+            <button
+                class="cursor-pointer text-[15px] px-[20px] py-[5px] mt-[20px] ml-[120px] rounded-full text-white border-2 border-black bg-black md:ml-[280px] lg:px-[80px] lg:py-[12px] lg:ml-[15px] lg:mt-[30px] lg:ml-[80px] lg:text-[18px] hover:bg-[#DDDDDD] hover:text-black">EXPLORE
+                THE RANGE</button>
+        </div>
+        <div class="pl-[80px] pt-[30px] md:pl-[200px]  lg:pt-[50px] lg:pl-[0px]">
+            <img class="h-[90px] md:h-[120px] lg:h-[200px]"
+                src="./assets/part1/rode-homepage-wireless-range-campaign-mobile-01 (1).jpg" alt="">
+        </div>
+    </div>
+    <div>
+        <img class="w-[800px]  md:w-[1000px] lg:w-[5000px] lg:h-[600px] " src="./assets/part2/banner-rode-5 (1).jpg"
+            alt="">
+        <img class="absolute h-[40px] top-[610px] left-[210px] md:h-[70px] md:top-[730px] md:left-[400px] lg:h-[150px] lg:top-[1000px] lg:left-[750px]"
+            src="./assets/part2/HOLIDAY SEASON SPECIAL-01 (1).svg" alt="">
+        <button
+            class="cursor-pointer text-[6px] px-[6px] rounded-full absolute text-white border-2 border-black bg-black top-[660px] left-[250px] md:text-[12px] md:px-[20px] md:top-[820px] md:left-[450px]  lg:px-[80px] lg:py-[12px] lg:top-[1200px] lg:left-[800px] lg:ml-[80px] lg:mt-[30px] lg:text-[18px]   hover:bg-[#F2F2F2] hover:text-black">BUY
+            NOW</button>
+    </div>
+    <div>
+        <img class="w-[800px]  md:w-[1000px] lg:w-[5000px] lg:h-[600px] "
+            src="./assets/part3/NT1-Sig-Ser-Banner-desktop (1).jpg" alt="">
+        <div
+            class="absolute top-[750px] left-[220px]  flex flex-col gap-[5px] md:absolute md:top-[980px] md:left-[380px] lg:top-[1560px] lg:left-[780px]">
+            <h1 class="text-white font-bold text-[12px] text-center md:text-[25px] lg:text-[60px]">NT1 <span
+                    class="font-normal">Signature Series</span></h1>
+            <p class="semibold text-[9px] text-white text-center md:text-[17px] lg:text-[30px]">Your New Go-to Studio
+                Mic</p>
+            <p class="text-[5px] text-center text-[#8D8C8C] md:text-[10px] lg:text-[16px]">The NT1 Signature Series is a
+                workhorse studio condenser microphone<br />with a warm, silky character,
+                exceptionally low noise and high SPL<br /> handling – ideal in a wide range of studio applications.</p>
+            <div
+                class="flex align-center flex mt-[5px] ml-[40px] gap-[10px] md:ml-[100px] md:mt-[10px] lg:gap-[30px] lg:mt-[30px]">
+                <p class="cursor-pointer text-[5px] text-[#8D8C8C] md:text-[8px] lg:text-[16px] lg:mt-[10px]">LEARN
+                    MORE&nbsp; ></p>
+                <button
+                    class="cursor-pointer border-2 border-white text-black bg-white rounded-full px-[10px] text-[5px] md:text-[8px] lg:text-[16px] lg:px-[70px] lg:py-[10px] hover:bg-[#1A1A1A] hover:text-white">BUY
+                    NOW</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img class="w-[800px]  md:w-[1000px] lg:w-[5000px] lg:h-[600px] " src="./assets/part4/DS2-BANNER-02 (1).jpg"
+            alt="">
+        <div
+            class="absolute top-[900px] left-[15px]  flex flex-col gap-[5px] md:absolute md:top-[1240px] md:left-[20px] lg:top-[2150px] lg:left-[100px]">
+            <h1 class="text-black font-bold text-[12px] text-center md:text-[25px] lg:text-[60px]">DS <span
+                    class="text-[#AD9970] font-bold">2</span></h1>
+            <p class="semibold text-[9px] text-black text-center md:text-[17px] lg:text-[30px]">The Perfect Desktop
+                Mount</p>
+            <p class="text-[5px] text-center text-[#8D8C8C] md:text-[10px] lg:text-[16px]">The DS2 is a compact desktop
+                studio arm that's ideal for perfectly<br /> positioning your microphone, camera, smartphone, light and
+                other<br /> accessories on your desktop.</p>
+            <div
+                class="flex align-center flex mt-[5px] ml-[40px] gap-[10px] md:ml-[100px] md:mt-[10px] lg:gap-[30px] lg:mt-[30px] lg:ml-[65px]">
+                <p class="cursor-pointer text-[5px] text-[#8D8C8C] md:text-[8px] lg:text-[16px] lg:mt-[10px]">LEARN
+                    MORE&nbsp; ></p>
+                <button
+                    class="cursor-pointer border-2 border-black text-white bg-black rounded-full px-[10px] text-[5px] md:text-[8px] lg:text-[16px] lg:px-[70px] lg:py-[10px] hover:bg-[#E0E0E0] hover:text-black">BUY
+                    NOW</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img class="w-[800px]  md:w-[1000px] lg:w-[5000px] lg:h-[600px] " src="./assets/part5/Wipro-Banner-02 (1).jpg"
+            alt="">
+        <div
+            class="absolute top-[1060px] left-[220px]  flex flex-col gap-[5px] md:absolute md:top-[1520px] md:left-[380px] lg:top-[2770px] lg:left-[780px]">
+            <img class="lg:mb-[10px]" src="./assets/part5/WIGO PRO PL P 01.svg" alt="">
+            <p class="semibold text-[9px] text-black text-center md:text-[17px] lg:text-[30px]">The Most Powerful
+                Wireless Mic Ever</p>
+            <p class="text-[5px] text-center text-[#8D8C8C] md:text-[10px] lg:text-[16px]">The Wireless PRO is the
+                ultimate wireless solution, packed full of<br /> powerful features like 32-bit float, timecode and
+                GainAssist that offer<br /> incredible flexibility for recording pristine audio for your content.</p>
+            <div
+                class="flex align-center flex mt-[5px] ml-[40px] gap-[10px] md:ml-[100px] md:mt-[10px] lg:gap-[30px] lg:mt-[30px]">
+                <p class="cursor-pointer text-[5px] text-[#8D8C8C] md:text-[8px] lg:text-[16px] lg:mt-[10px]">LEARN
+                    MORE&nbsp; ></p>
+                <button
+                    class="cursor-pointer border-2 border-black text-white bg-black rounded-full px-[10px] text-[5px] md:text-[8px] lg:text-[16px] lg:px-[70px] lg:py-[10px] hover:bg-[#F2F2F2] hover:text-black">BUY
+                    NOW</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img class="w-[800px]  md:w-[1000px] lg:w-[5000px] lg:h-[600px] "
+            src="./assets/part6/rode-video-micro-II-webheader-holding-camera-8144x2969-rgb-1921x700-8c89d38.jpg" alt="">
+        <div
+            class="absolute top-[1220px] left-[15px]  flex flex-col gap-[5px] md:absolute md:top-[1810px] md:left-[20px] lg:top-[3380px] lg:left-[100px] ">
+            <img class=" md:h-[20px] lg:mb-[10px] lg:h-[40px]" src="./assets/part6/VideoMicroII_PL_P_03.svg" alt="">
+            <p class="semibold text-[9px] text-black text-center md:text-[17px] lg:text-[30px]">Small Size. Stunning
+                Sound.</p>
+            <p class="text-[5px] text-center text-[#8D8C8C] md:text-[10px] lg:text-[16px]">The VideoMicro II is an
+                ultra-compact and easy-to-use microphone<br /> that will instantly elevate your camera or smartphone
+                audio, perfect for<br /> filmmaking, content creation, home videos, and more.</p>
+            <div
+                class="flex align-center flex mt-[5px] ml-[40px] gap-[10px] md:ml-[100px] md:mt-[10px] lg:gap-[30px] lg:mt-[30px] lg:ml-[65px]">
+                <p class="cursor-pointer text-[5px] text-[#8D8C8C] md:text-[8px] lg:text-[16px] lg:mt-[10px]">LEARN
+                    MORE&nbsp; ></p>
+                <button
+                    class="cursor-pointer border-2 border-black text-white bg-black rounded-full px-[10px] text-[5px] md:text-[8px] lg:text-[16px] lg:px-[70px] lg:py-[10px] hover:bg-[#E0E0E0] hover:text-black">BUY
+                    NOW</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img class="w-[800px]  md:w-[1000px] lg:w-[5000px] lg:h-[600px] "
+            src="./assets/part7/rode-streamer-x-web-banner-11163x4070-rgb-1920x700-8c89d38.jpg" alt="">
+        <div
+            class="absolute top-[1360px] left-[220px]  flex flex-col gap-[5px] md:absolute md:top-[2070px] md:left-[380px] lg:top-[3950px] lg:left-[780px]">
+            <img class="lg:mb-[10px]" src="./assets/part7/STREAMER-X_Product-Logo_Red_01 (1).svg" alt="">
+            <p class="semibold text-[9px] text-black text-center md:text-[17px] lg:text-[30px]">Pristine Audio,
+                Incredible Video,<br /> Unmatched Control</p>
+            <p class="text-[5px] text-center text-[#8D8C8C] md:text-[10px] lg:text-[16px]">The Streamer X is the world’s
+                first audio interface, video capture card<br /> and control surface integrated in one compact device,
+                making creating<br /> incredible content incredibly easy.</p>
+            <div
+                class="flex align-center flex mt-[5px] ml-[40px] gap-[10px] md:ml-[100px] md:mt-[10px] lg:gap-[30px] lg:mt-[30px] lg:ml-[70px]">
+                <p class="cursor-pointer text-[5px] text-[#8D8C8C] md:text-[8px] lg:text-[16px] lg:mt-[10px]">LEARN
+                    MORE&nbsp; ></p>
+                <button
+                    class="cursor-pointer border-2 border-black text-white bg-black rounded-full px-[10px] text-[5px] md:text-[8px] lg:text-[16px] lg:px-[70px] lg:py-[10px] hover:bg-[#F2F2F2] hover:text-black">BUY
+                    NOW</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img class="w-[800px]  md:w-[1000px] lg:w-[5000px] lg:h-[600px] "
+            src="./assets/part8/rode-pod-micwebbanner-3420x2160-rgb-1921x700-8c89d38.jpg" alt="">
+        <div
+            class="absolute top-[1520px] left-[15px]  flex flex-col gap-[5px] md:absolute md:top-[2330px] md:left-[30px] lg:top-[4540px] lg:left-[100px] ">
+            <h1 class="text-white font-bold text-[12px] text-center md:text-[25px] lg:text-[60px]">DS <span
+                    class="text-[#AD9970] font-bold">2</span></h1>
+            <p class="semibold text-[9px] text-white text-center md:text-[17px] lg:text-[30px]">Be Ready When Creativity
+                Calls
+            </p>
+            <p class="text-[5px] text-center text-[#8D8C8C] md:text-[10px] lg:text-[16px]">The PodMic USB is an
+                ultra-versatile dynamic microphone with both an<br /> XLR and USB output, making podcasting, streaming,
+                gaming, and other<br /> content creation a breeze – whether you’re recording with an interface,<br /> or
+                directly into a computer, smartphone or tablet.</p>
+            <div
+                class="flex align-center flex mt-[5px] ml-[40px] gap-[10px] md:ml-[100px] md:mt-[10px] lg:gap-[30px] lg:mt-[30px] lg:ml-[65px]">
+                <p class="cursor-pointer text-[5px] text-[#8D8C8C] md:text-[8px] lg:text-[16px] lg:mt-[10px]">LEARN
+                    MORE&nbsp; ></p>
+                <button
+                    class="cursor-pointer border-2 border-white text-black bg-white rounded-full px-[10px] text-[5px] md:text-[8px] lg:text-[16px] lg:px-[70px] lg:py-[10px] hover:bg-black hover:text-white">BUY
+                    NOW</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img class="w-[800px]  md:w-[1000px] lg:w-[5000px] lg:h-[600px] "
+            src="./assets/part9/rode-wireless-me-insitu-pastel-livingroom-girls-shooting-on-iPhone-smart-grip-web-banner-13810x5035-rgb-1920x700-8c89d38.jpg"
+            alt="">
+        <div
+            class="absolute top-[1680px] left-[220px]  flex flex-col gap-[5px] md:absolute md:top-[2630px] md:left-[380px] lg:top-[5170px] lg:left-[780px]">
+            <img class="lg:mb-[10px]" src="./assets/part9/WIME_PL_P_01 (2).svg" alt="">
+            <p class="semibold text-[9px] text-black text-center md:text-[17px] lg:text-[30px]">Wireless Audio Made Easy
+            </p>
+            <p class="text-[5px] text-center text-[#8D8C8C] md:text-[10px] lg:text-[16px]">TThe Wireless ME is an
+                ultra-compact wireless microphone system that<br /> makes recording professional audio effortless – the
+                perfect companion<br /> for content creation, interviewing, reporting, presenting, filmmaking<br /> and
+                much more.</p>
+            <div
+                class="flex align-center flex mt-[5px] ml-[40px] gap-[10px] md:ml-[100px] md:mt-[10px] lg:gap-[30px] lg:mt-[30px] lg:ml-[80px]">
+                <p class="cursor-pointer text-[5px] text-[#8D8C8C] md:text-[8px] lg:text-[16px] lg:mt-[10px]">LEARN
+                    MORE&nbsp; ></p>
+                <button
+                    class="cursor-pointer border-2 border-black text-white bg-black rounded-full px-[10px] text-[5px] md:text-[8px] lg:text-[16px] lg:px-[70px] lg:py-[10px] hover:bg-[#F2F2F2] hover:text-black">BUY
+                    NOW</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <p
+            class="font-semibold text-[#AD9970] bg-white py-[10px] text-[14px] text-center md:text-[20px] md:py-[15px] lg:py-[35px] lg:text-[33px]">
+            Latest From The RØDE Blog</p>
+    </div>
+    <div class="bg-[#F8F9FA] flex flex-col gap-[30px] md:gap-[10px] md:flex-row lg:flex-col lg:gap-[0px]">
+        <div class="flex flex-col gap-[35px]  lg:flex-row md:px-[15px] md:py-[20px]  lg:px-[95px] lg:py-[60px]">
+            <div
+                class=" border-2 border-white bg-white w-[430px] pt-[40px] pb-[40px] md:w-[350px] lg:w-[600px] lg:pt-[15px] lg:pb-[32px]">
+                <p class="font-semibold text-[18px] text-center  lg:text-[25px] mb-[25px]">Introducing the NT1 Signature
+                    Series Studio<br /> Condenser Microphone</p>
+                <img class="h-[600px]"
+                    src="./assets/part10/rode-nt1-ss-black-shot-01-0221-8192x5464-rgb-1080x1080-a2aa267.jpg" alt="">
+                <p class="text-[12px] text-center mt-[40px] mb-[25px] md:text-[10px] lg:text-[16px]">A workhorse studio
+                    condenser microphone with a warm, silky<br /> character, exceptionally low noise and high SPL
+                    handling – ideal in a<br /> wide range of studio applications.</p>
+                <button
+                    class="cursor-pointer font-semibold border-2 border-black rounded-full text-white bg-black px-[15px] py-[5px] ml-[140px] md:ml-[100px] lg:ml-[220px] hover:bg-white hover:text-black">LEARN
+                    MORE</button>
+            </div>
+            <div
+                class=" border-2 border-white bg-white w-[430px] pt-[40px] pb-[40px] md:w-[350px] lg:w-[600px] lg:pt-[15px] lg:pb-[32px]">
+                <p class="font-semibold text-[18px] text-center mb-[25px] lg:text-[25px] ">New Wireless PRO Firmware
+                    Introduces<br /> High-Pass Filters and More</p>
+                <img class="h-[600px]"
+                    src="./assets/part10/rode-wireless-pro-barangaroo-user-case-509A0847-8192x5464-v2-rgb-1080x1080-de05594.jpg"
+                    alt="">
+                <p class="text-[12px] text-center mt-[40px] mb-[25px] md:text-[10px] lg:text-[16px]">The latest firmware
+                    introduces a two-stage high-pass filter and more<br /> configuration settings for the Wireless PRO.
+                </p>
+                <button
+                    class="cursor-pointer font-semibold border-2 border-black rounded-full text-white bg-black px-[15px] py-[5px] ml-[140px] md:ml-[100px] lg:ml-[220px] hover:bg-white hover:text-black">LEARN
+                    MORE</button>
+            </div>
+        </div>
+        <div class="flex flex-col gap-[35px] md:py-[20px] lg:flex-row lg:px-[95px] lg:py-[60px]">
+            <div
+                class=" border-2 border-white bg-white w-[430px] pt-[40px] pb-[40px] md:w-[350px] md:pb-[60px] lg:w-[600px] lg:pt-[15px] lg:pb-[32px]">
+                <p class="font-semibold text-[18px] text-center mb-[25px] md:mb-[50px] lg:text-[25px] lg:mb-[25px]">
+                    Introducing the Limited-Edition White<br /> Collection</p>
+                <img class="h-[600px]"
+                    src="./assets/part10/rode-pod-mic-usb-computer-scenemobile-usage-8192x5464-rgb-5953-1080x1080-4ca7122.jpg"
+                    alt="">
+                <p class="text-[12px] text-center mt-[40px] mb-[25px] md:text-[10px] lg:text-[16px]">We’re excited to
+                    announce limited-edition white colourways for the<br /> RØDECaster Duo, PodMic, PSA1+ and NTH-100.
+                </p>
+                <button
+                    class="cursor-pointer font-semibold border-2 border-black rounded-full text-white bg-black px-[15px] py-[5px] ml-[140px] md:ml-[100px] lg:ml-[220px] hover:bg-white hover:text-black">LEARN
+                    MORE</button>
+            </div>
+            <div
+                class=" border-2 border-white bg-white w-[430px] pt-[40px] pb-[40px] md:w-[350px]  lg:w-[600px] lg:pt-[15px] lg:pb-[45px]">
+                <p
+                    class="font-semibold text-[18px] text-center mb-[25px] md:mb-[45px] lg:text-[25px] lg:mb-[40px] lg:pt-[20px]">
+                    Introducing the DS2 Desktop Studio Arm</p>
+                <img class="h-[600px]"
+                    src="./assets/part10/rode-pod-mic-rcp-duo-nth100-w-art-shoot-002-9158x6106-rgb-1080x1080-037fc67.jpg"
+                    alt="">
+                <p class="text-[12px] text-center mt-[40px] mb-[25px] md:text-[10px] lg:text-[16px]">A compact desktop
+                    studio arm for mounting microphones, cameras,<br /> smartphones, lights and other accessories on
+                    your desktop.</p>
+                <button
+                    class="cursor-pointer font-semibold border-2 border-black rounded-full text-white bg-black px-[15px] py-[5px] ml-[140px] md:ml-[100px] lg:ml-[220px] hover:bg-white hover:text-black">LEARN
+                    MORE</button>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white">
+        <p class="text-[#767676] font-bold text-center py-[20px] md:text-[25px] lg:text-[35px]">Explore The RØDE Range
+        </p>
+        <img class="cursor-pointer mb-[20px] hover:brightness-50 md:px-[30px] lg:mb-[35px] lg:px-[120px]"
+            src="./assets/part11/images_page_1_modules_5357_microphones-module-1200x300-rgb.png" alt="">
+        <img class="cursor-pointer mb-[20px] hover:brightness-50 md:px-[30px] lg:mb-[35px] lg:px-[120px]"
+            src="./assets/part11/images_page_1_modules_5359_interfaces-module-2022-1200x300-rgb.jpg" alt="">
+        <img class="cursor-pointer mb-[20px] hover:brightness-50 md:px-[30px] lg:mb-[35px] lg:px-[120px]"
+            src="./assets/part11/images_page_1_modules_5361_software-module-2021-1200x300-rgb.png" alt="">
+        <img class="cursor-pointer mb-[20px] hover:brightness-50 md:px-[30px] lg:mb-[35px] lg:px-[120px]"
+            src="./assets/part11/images_page_1_modules_5370_accessories-module-2021-1200x300-rgb.png" alt="">
+        <p
+            class="cursor-pointer absolute font-semibold text-white top-[5640px] left-[140px] text-[22px] md:text-[30px] md:text-[35px] md:top-[4950px] md:left-[250px] lg:text-[80px] lg:top-[8000px] lg:pl-[180px]">
+            MICROPHONES</p>
+        <p
+            class="cursor-pointer absolute font-semibold text-white top-[5765px] left-[95px] text-[22px] md:text-[35px] md:top-[5130px] md:left-[190px] lg:text-[80px] lg:top-[8320px] lg:pl-[100px]">
+            INTERFACES & MIXERS</p>
+        <p
+            class="cursor-pointer absolute font-semibold text-white top-[5895px] left-[160px] text-[22px] md:text-[35px] md:top-[5330px] md:left-[280px] lg:text-[80px] lg:top-[8650px] lg:pl-[220px]">
+            SOFTWARE</p>
+        <p
+            class="cursor-pointer absolute font-semibold text-white top-[6018px] left-[140px] text-[22px] md:text-[35px] md:top-[5530px] md:left-[250px] lg:text-[80px] lg:top-[8980px] lg:pl-[200px]">
+            ACCESSORIES</p>
+    </div>
+    <div class="border-2 border-[#DEDFE0] py-[30px] lg:flex lg:justify-between lg:px-[120px] lg:pt-[80px] lg:pb-[60px]">
+        <img class="h-[50px] pl-[168px] mb-[30px] md:h-[80px] md:pl-[310px] lg:pl-[0px]" src="./assets/part12/RODE_logo_142x85_desktop_light_mode.svg" alt="">
+        <div class="flex flex-col gap-[30px] lg:flex-row lg:gap-[80px]">
+            <ul class="cursor-pointer text-center md:text-[20px] lg:text-left lg:text-[16px] lg:leading-loose">
+                <li class="font-semibold">Products</li>
+                <li class="text-[#484848] hover:text-[#777777]">Microphones</li>
+                <li class="text-[#484848] hover:text-[#777777]">Headphones</li>
+                <li class="text-[#484848] hover:text-[#777777]">Interfaces and Mixers</li>
+                <li class="text-[#484848] hover:text-[#777777]">Accessories</li>
+                <li class="text-[#484848] hover:text-[#777777]">Apps</li>
+                <li class="text-[#484848] hover:text-[#777777]">Apparel</li>
+            </ul>
+            <ul class="cursor-pointer text-center md:text-[20px] lg:text-left lg:text-[16px] lg:leading-loose">
+                <li class="font-semibold">Support</li>
+                <li class="text-[#484848] hover:text-[#777777]">Contact RODE</li>
+                <li class="text-[#484848] hover:text-[#777777]">Service Center</li>
+                <li class="text-[#484848] hover:text-[#777777]">Warranty</li>
+                <li class="text-[#484848] hover:text-[#777777]">Where to Buy</li>
+                <li class="text-[#484848] hover:text-[#777777]">Authorized Dealers</li>
+            </ul>
+            <ul class="cursor-pointer text-center md:text-[20px] lg:text-left lg:text-[16px] lg:leading-loose">
+                <li class="font-semibold">Company</li>
+                <li class="text-[#484848] hover:text-[#777777]">About RODE</li>
+                <li class="text-[#484848] hover:text-[#777777]">News and Info</li>
+                <li class="text-[#484848] hover:text-[#777777]">Job Opportunities</li>
+                <li class="font-semibold hover:text-[#777777]">Account</li>
+                <li class="text-[#484848] hover:text-[#777777]">Create Account</li>
+            </ul>
+        </div>
+        <div class="flex flex-col mt-[25px] gap-[20px] lg:mt-[0px]">
+            <p class="font-bold text-center md:text-[22px] ">Subscribe to our latest news<br/> and offers</p>
+            <button class="cursor-pointer rounded-full font-semibold bg-black border-2 border-black text-white mx-[140px] py-[4px] hover:bg-white hover:text-black md:mx-[300px] lg:mx-[60px] ">Subscribe</button>
+        </div>
+    </div>
+    <div class="flex flex-col gap-[10px] py-[40px] md:gap-[20px] lg:flex-row lg:justify-between lg:px-[100px]">
+        <p class="text-center md:text-[16px] lg:text-[13px]">© 2023 RØDE All Rights Reserved.</p>
+        <ul class="flex gap-[10px] ml-[70px] md:text-[16px] md:ml-[235px] lg:text-[11px]">
+            <li class="cursor-pointer hover:text-[#AD9970]">Privacy Policy</li>
+            <li class="cursor-pointer hover:text-[#AD9970]">|</li>
+            <li class="cursor-pointer hover:text-[#AD9970]">Terms and Conditions</li>
+        </ul>
+        <ul class="flex gap-[10px] ml-[120px] md:ml-[290px] lg:gap-[15px]">
+            <li class="cursor-pointer hover:text-[#AD9970]"><i class="fa-brands fa-facebook"></i></li>
+            <li class="cursor-pointer hover:text-[#AD9970]"><i class="fa-solid fa-x"></i></li>
+            <li class="cursor-pointer hover:text-[#AD9970]"><i class="fa-brands fa-instagram"></i></li>
+            <li class="cursor-pointer hover:text-[#AD9970]"><i class="fa-brands fa-youtube"></i></li>
+            <li class="cursor-pointer hover:text-[#AD9970]"><i class="fa-brands fa-tiktok"></i></li>
+            <li class="cursor-pointer hover:text-[#AD9970]"><i class="fa-brands fa-twitch"></i></li>
+            <li class="cursor-pointer hover:text-[#AD9970]"><i class="fa-brands fa-discord"></i></li>
+        </ul>
+    </div>
+</body>
+
+</html>
